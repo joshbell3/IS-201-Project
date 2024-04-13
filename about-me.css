@@ -1,0 +1,62 @@
+/* Reset and basic styles */
+body, h1, p, ul, li, nav, section, footer {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Styles for the body to include a background image */
+body {
+    background-image: url('assets/img/portfolio/thumbnails/background_image.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top,right;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* Navigation styles */
+nav ul {
+    background: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Embedded content styles */
+iframe {
+    border: 0;
+    width: 25%;
+    height: 150px; /* Adjust as necessary for your layout */
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
